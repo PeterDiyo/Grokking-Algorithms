@@ -11,4 +11,4 @@ def twoSum(nums, target):
         if diff in prevMap:  # Check if the difference is already in the hash map
             return [prevMap[diff], i]  # If found, return the indices of the two numbers
         prevMap[n] = i  # Store the index of the current number in the hash map
-    return
+    return []
